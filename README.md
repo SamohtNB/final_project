@@ -10,13 +10,13 @@ DB_PASSWORD="your password to the database"
 et pour lancer le server et mettre à jour la base de données il faut faire dans l'invit de commande:
 
 **npm run start**
-we use those dependencies:
-knex
-express
-path
-dotenv
-pg
-nodemon
+we use those dependencies: 
+. knex
+. express
+. path
+. dotenv
+. pg
+. nodemon
 
 the team is made of
     Thomas Masselles  
