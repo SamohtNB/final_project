@@ -1,0 +1,367 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.lg{
+    top: 0;
+    height: 60px;
+    display: inline-block;
+
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(97, 12, 166);
+    filter : blur(0px);
+    z-index: 10;
+    padding: 15px;
+    height: 55px;
+}
+
+.cont{
+    top: 10px;
+    left: 28%;
+    margin: 0 auto;
+    z-index: 20;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+
+
+.p_title{
+    top: 0%;
+    width: 100%;
+    left: 50%;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    top: 20px;
+    right: 10px;
+    position: absolute;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_btn{
+    background-color: #30312f;
+    display: inline-block;
+    padding: 15px;
+    top: 0;
+    right: 0px;
+    margin-right: 0;
+    border-radius: 7px;
+}
+
+.nav_btn:hover {
+    background-color: rgb(87, 85, 85);
+    box-shadow: 0 0 3px 1px black inset;
+} 
+
+
+/*------------------------------*/
+/* ----------- BODY ----------- */
+
+.container{
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position : relative;
+    height: 4000%;
+}
+
+
+#mob_bc{
+    width: 100%;
+    filter: blur(2px);
+    z-index: 1;
+    height: 4000%;
+}
+
+.container2{
+    position: absolute;
+    background-color: black;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+    top: 105%;
+    left: 50%;
+    width: 88%;
+    height: 168%;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+
+#container5{
+    margin-bottom: 40%;
+    background-color: brown;
+}
+
+#md{
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    width: 20%;
+    height: 4%;
+    border-radius: 10px;
+    /* border: 2px solid rgb(107, 2, 2); */
+    text-align: center;
+}
+
+#md h1{
+    margin-top: 5px;
+    color: aliceblue;
+    z-index: 6;
+}
+
+#maj_1{
+    position: absolute;
+    top:16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    width: 90%;
+    height: 12%;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 12, 166);
+}
+
+#maj_2{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    width: 90%;
+    height: 12%;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 12, 166);
+}
+
+#maj_3{
+    position: absolute;
+    top:44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    width: 90%;
+    height: 12%;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 12, 166);
+}
+
+#maj_4{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    width: 90%;
+    height: 12%;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 12, 166);
+}
+
+#maj_5{
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    width: 90%;
+    height: 12%;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 12, 166);
+}
+
+#maj_6{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    width: 90%;
+    height: 12%;
+    border-radius: 10px;
+    border: 2px solid rgb(97, 12, 166);
+}
+
+.cb{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 50%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    border: 2px solid white ;
+    border-radius: 8px;
+}
+
+#mods{
+    position: absolute;
+    background-color: aliceblue;
+    width: 120px;
+    height: 120px;
+    left: 8%;
+    top: 51%;
+    transform: translate(-50%, -50%);
+    z-index: 150;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+.txt{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    top: 59%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    border: 2px solid white ;
+    border-radius: 8px;
+}
+
+.txt p{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: aliceblue;
+}
+
+.ip{
+    color: rgb(111, 57, 155);
+}
+
+.tit{
+    position: absolute;
+    width: 20%;
+    height: 20px;
+    top: 12%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    /* border: 2px solid white ; */
+    border-radius: 8px;
+}
+
+.tit h3{
+    color: aliceblue;
+}
+
+
+/*------------------------------*/
+/* ---------- FOOTER ---------- */
+
+.container4 {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: -35px;
+    margin-bottom: -30px;
+}
+
+.row {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: rgb(46, 45, 45);
+    padding: 70px 0;
+
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(97, 12, 166);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: aliceblue;
+    display: block;
+    transition: all 0.3 ease;
+}
+
+.footer-col ul li a:hover {
+    color: #64a510;
+    padding-left: 8px;
+}
+
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #000000;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-link a:hover {
+    color: #000000;
+    background-color: #64a510;
+}
+
+/*------------------------------*/
