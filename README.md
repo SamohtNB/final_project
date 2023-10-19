@@ -19,8 +19,8 @@ pg
 nodemon
 
 the team is made of
-    Thomas Masselles
-    Adrien Houee
-    Arthur Castelan
-    Enzo Greiner
-    Marco  Arrighi
+    Thomas Masselles  
+    Adrien Houee  
+    Arthur Castelan  
+    Enzo Greiner  
+    Marco  Arrighi  
