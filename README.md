@@ -11,16 +11,16 @@ et pour lancer le server et mettre à jour la base de données il faut faire dan
 
 **npm run start**
 we use those dependencies: 
-. knex
-. express
-. path
-. dotenv
-. pg
-. nodemon
+* knex
+* express
+* path
+* dotenv
+* pg
+* nodemon
 
 the team is made of
-    Thomas Masselles  
-    Adrien Houee  
-    Arthur Castelan  
-    Enzo Greiner  
-    Marco  Arrighi  
+* Thomas Masselles  
+* Adrien Houee  
+* Arthur Castelan  
+* Enzo Greiner  
+* Marco  Arrighi  
