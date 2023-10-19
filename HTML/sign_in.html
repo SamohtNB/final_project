@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Minecraft mods and tricks</title>
+    <link rel="stylesheet" href="../css/sign_in.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  </head>
+
+  <header>
+
+    <img  class='lg'src="../img/logo.png" alt="Logo">
+
+
+    <div class="cont">
+        <img  class='p_title'src="../img/p_title.png" alt="Logo">
+    </div>
+
+    <nav>
+      <ul>
+          <div class='nav_btn'><li><a href="login.html">Login</a></li></div>
+          <div class='nav_btn'><li><a href="sign_in.html">Sign in</a></li></div>    
+      </ul>
+    </nav>
+</header>
+
+  <body>
+
+    <div class="wrapper">
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#" onsubmit="create_sub(event)">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <input type="text" id="pseudo" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remenber-forgot">
+                    <label><input type="checkbox">I agree to the term & condition</label>
+
+                </div>
+                <button type="submit" class="btn">Register</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="/create_sub.js"></script>
+  </body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/mods.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+    <title>Document</title>
+</head>
+
+<header>
+
+    <a href="index.html" class="logo">
+        <img class='lg'src="../img/logo.png" alt="Logo">
+    </a>
+    
+
+
+    <div class="cont">
+        <img  class='p_title'src="../img/p_title.png" alt="Logo">
+    </div>
+
+    <nav>
+      <ul>
+          <div class='nav_btn'><li><a href="login.html">Login</a></li></div>
+          <div class='nav_btn'><li><a href="sign_in.html">Sign in</a></li></div>    
+      </ul>
+    </nav>
+</header>
+
+
+<body>
+
+    <div class='container'>
+        <img id="mob_bc" src="../img/mod_bc3.png">
+        
+        <!-- <img class="livre2_VF" src="../img/livre2_VF.png"> -->
+    </div>
+
+    <div class="container2">
+
+        <div id="md">
+            <h1>Mods List :</h1>
+        </div>
+
+        <div id="maj_1">
+
+            <img id="mods" src="../img/mod_1.png">
+            <div class='txt'>
+                <p>The "Oh, the Biomes You'll Go!" mod is a beloved and expansive addition to the world 
+                    of Minecraft. This mod introduces a wide range of new biomes, each with its own 
+                    distinctive terrain, vegetation, and atmosphere. These biomes offer players exciting 
+                    and diverse landscapes to explore, fostering a renewed sense of adventure and 
+                    discovery.</p><br>
+                <p>link : <a href="https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go">https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go</a></p>
+                
+            </div>
+            <div class="tit">
+                <h3>OBYG</h3>
+            </div>
+        </div>
+
+        <div id="maj_2">
+            <img id="mods" src="../img/mod_2.png">
+            <div class='txt'>
+                <p>The "Create" mod is an extraordinary and innovative addition to the world of Minecraft,
+                     offering players a vast array of mechanical and engineering possibilities. 
+                     This mod introduces a comprehensive set of mechanical components, contraptions, 
+                     and automation tools, empowering players to design complex machines and systems.
+                </p><br>
+                <p>link : <a href="https://www.curseforge.com/minecraft/mc-mods/create">https://www.curseforge.com/minecraft/mc-mods/create</a></p>
+
+            </div>
+            <div class="tit">
+                <h3>CREATE</h3>
+            </div>
+        </div>
+
+        <div id="maj_3">
+            <img id="mods" src="../img/mod_3.png">
+            <div class='txt'>
+                <p>The "Millénaire" mod is an exceptional and immersive addition to the world of 
+                    Minecraft, introducing a vibrant and culturally diverse array of villages and NPCs 
+                    (non-player characters) to the game. This mod transforms the player's world by 
+                    bringing it to life with a rich tapestry of cultures, quests, and interactions.
+                </p><br>
+                <p>link : <a href="https://www.curseforge.com/minecraft/mc-mods/millenaire">https://www.curseforge.com/minecraft/mc-mods/millenaire</a></p>
+            </div>
+            <div class="tit">
+                <h3>MILLENIALE</h3>
+            </div>
+        </div>
+
+        <div id="maj_4">
+            <img id="mods" src="../img/mod_4.png">
+            <div class='txt'>
+                <p>Alcocraft is about brewing and drinking alcohol.
+                    Build your own hop farm. Craft your first Keg and start brewing alcohol.  
+                    There are currently 12 types of drinks available in the mod. 
+                    Each of them has its own special effects that will spice up your survival experience.
+                    As soon as the alcohol is brewed, call your friends and share with them the coolness
+                    of a delicious drink.</p><br>
+                    <p>link : <a href="https://www.curseforge.com/minecraft/mc-mods/alcocraft-beer-and-stuff">https://www.curseforge.com/minecraft/mc-mods/alcocraft-beer-and-stuff</a></p>
+            </div>
+            <div class="tit">
+                <h3>ALCOCRAFT</h3>
+            </div>
+        </div>
+
+        <div id="maj_5">
+            <img id="mods" src="../img/mod_5.png">
+            <div class='txt'>
+                <p>The "Galacticraft" mod is a stellar and ambitious expansion for Minecraft, 
+                    allowing players to embark on extraterrestrial adventures by venturing into 
+                    the cosmos. This mod introduces an entire galaxy, complete with planets, 
+                    celestial bodies, and the means to explore the vastness of space.</p><br>
+                    <p>link : <a href="https://www.curseforge.com/minecraft/mc-mods/galacticraft-legacy">https://www.curseforge.com/minecraft/mc-mods/galacticraft-legacy</a></p>
+            </div>
+            <div class="tit">
+                <h3>GALACTICRAFT</h3>
+            </div>
+        </div>
+
+        <div id="maj_6">
+            <img id="mods" src="../img/mod_6.png">
+            <div class='txt'>
+                <p>Here is the Useless Sword mod, this mod adds 76 new swords in 1.16, 60 new swords in 1.15, 59 swords in 1.14 and 51 swords in 1.12 !
+                    The swords take again objects already existing in the game where which is obtained by a mobs (install JEI to see all the recipes)   
+                    I'm French and this mod was done with Mcreator</p><br>
+                    <p>link : <a href="https://www.curseforge.com/minecraft/mc-mods/useless-sword">https://www.curseforge.com/minecraft/mc-mods/useless-sword</a></p>
+            </div>
+            <template>
+        
+                <section id="but">
+                    <p v-if="like > 0">
+                        This video has {{ likes }}
+                    </p>
+
+                    <p v-else>
+
+                    </p>
+
+                    <button v-on:click="likeAndSuscribe()">
+                        Like & Susbscribe 
+                    </button>
+                </section>
+
+    
+            </template>
+            <div class="tit">
+                <h3>USELESS SWORD</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container3">
+        
+
+        <div id="container5">
+            <h2 id="filt">Filter</h2>
+        </div>
+
+
+        <div id="container6">
+            <input type="checkbox" class="ch" name="adv" value="valeur">
+            <label class="bt" for="adv">Adventure</label><br><br>
+
+            <input type="checkbox" class="ch" name="cur" value="valeur">
+            <label class="bt" for="cur">Cursed</label><br><br>
+            
+            <input type="checkbox" class="ch" name="dec" value="valeur">
+            <label class="bt" for="dec">Decoration</label><br><br>
+            
+            <input type="checkbox" class="ch" name="adv" value="valeur">
+            <label class="bt" for="eco">Economy</label><br><br>
+
+            <input type="checkbox" class="ch" name="equi" value="valeur">
+            <label class="bt" for="equi">Equipement</label><br><br>
+
+            <input type="checkbox" class="ch" name="foo" value="valeur">
+            <label class="bt" for="foo">Food</label><br><br>
+
+            <input type="checkbox" class="ch" name="gm" value="valeur">
+            <label class="bt" for="gm">Game mechanics</label><br><br>
+
+            <input type="checkbox" class="ch" name="mg" value="valeur">
+            <label class="bt" for="mg">Magic</label><br><br>
+
+            <input type="checkbox" class="ch" name="mgt" value="valeur">
+            <label class="bt" for="mgt">Management</label><br><br>
+
+            <input type="checkbox" class="ch" name="mb" value="valeur">
+            <label class="bt" for="mb">Mobs</label><br><br>
+
+            <input type="checkbox" class="ch" name="sto" value="valeur">
+            <label class="bt" for="sto">Storage</label><br><br>
+
+            <input type="checkbox" class="ch" name="tech" value="valeur">
+            <label class="bt" for="tech">Technology</label><br><br>
+
+            <input type="checkbox" class="ch" name="tr" value="valeur">
+            <label class="bt" for="tr">Transportation</label><br><br>
+
+            <input type="checkbox" class="ch" name="wg" value="valeur">
+            <label class="bt" for="wg">World Gen</label><br><br>
+        </div>
+    </div>
+
+    <script>
+        export default{
+
+            data() {
+                return {
+                    likes: 0,
+                }
+            },
+
+
+            methods: {
+                likeAndSubscribe() {
+                    this.like++;
+                    alert("nice choice")
+                }
+            }
+
+        }
+
+    </script>
+
+    
+    
+</body>
+
+
+<footer class="footer">
+    <div class="container4">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Compagny</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">update</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Get help</h4>
+              <ul>
+                  <li><a href="#">FAQ on discord</a></li>
+                  <li><a href="#">714-723-0357</a></li>
+                  <li><a href="#">mods.tips@gmail.Com</a></li>
+                  <li><a href="#">status</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Learn more</h4>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Minecraft">Minecraft</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">maps</a></li>
+                    <li><a href="https://minecraft.fandom.com/wiki/Server">serveur</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us</h4>
+                <ul>
+                    <li><a href="#"><span class="icon"><ion-icon name="logo-facebook"></ion-icon></span> ModsCraft_and_Tips.of</a></li>
+                    <li><a href="#"><span class="icon"><ion-icon name="logo-twitter"></ion-icon></span> ModsCraft_and_Tips.of</a></li>
+                    <li><a href="#"><span class="icon"><ion-icon name="logo-instagram"></ion-icon></span> ModsCraft_and_Tips.of</a></li>
+                    <li><a href="#"><span class="icon"><ion-icon name="logo-discord"></ion-icon></span> ModsCraft_and_Tips.of</a></li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+  </footer>
+</html>
